@@ -1,0 +1,36 @@
+[{
+  "name": "Пропущенные тесты",
+  "matchedStatuses": ["skipped"],
+  "messageRegex": ".*",
+  "traceRegex": ".*"
+},
+{
+"name": "Ошибки интеграции",
+"matchedStatuses": ["failed"],
+"messageRegex": ".*WebService.*",
+"traceRegex": ".*WebService.*"
+},
+{
+"name": "Неопознанные ошибки",
+"matchedStatuses": ["failed"],
+"messageRegex": "Invalid element state.*",
+"traceRegex": "Invalid element state.*"
+},
+{
+"name": "Неопознанные ошибки",
+"matchedStatuses": ["failed"],
+"messageRegex": "Element not found.*",
+"traceRegex": "Element not found.*"
+},
+{
+"name": "Неопознанные ошибки",
+"matchedStatuses": ["failed"],
+"messageRegex": "Element should be hidden.*",
+"traceRegex": "Element should be hidden.*"
+},
+{
+"name": "Бизнес ошибки",
+"matchedStatuses": ["failed"],
+"messageRegex": ".*Определено появление окна с ошибкой.*",
+"traceRegex": ".*Определено появление окна с ошибкой.*"
+}]
